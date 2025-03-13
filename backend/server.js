@@ -49,16 +49,7 @@ app.get('/', (req, res) => {
 // Create a "message" route which returns a JSON response
 app.post('/transcribe', upload.single('file'), async (req, res) => {
 
-  /*const transcription = await openai.createTranscription(
-    fs.createReadStream(req.file.path),
-    "whisper-1"
-  )
-  res.send(transcription);
-  */
-
     console.log(process.env.OPENAI_API_KEY);
-
-    //const myfile = fs.readFileSync(req.file.path);
     console.log(req.file.path);
 
     try {
