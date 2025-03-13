@@ -13,7 +13,7 @@ This is a practical guide for intermediate to advanced developers interested in 
 
 ### Instructions to run 
 
-- open terminal , navigate to backend folder and run the server on port 1330
-- open a new terminal , nvaigate to frone end folder and run it on 8000.
+- Open terminal , navigate to backend folder and run the server on port 1330
+- Open a new terminal , nvaigate to frone end folder and run it on 8000.
 
-<b>Tip : </b> you can use http-server to run the above commands.
+<b>Tip : </b> you can use `http-server` to run the above commands.
